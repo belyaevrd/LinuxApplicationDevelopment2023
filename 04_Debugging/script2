@@ -1,0 +1,11 @@
+
+b 36 if (i - M)/S >= 28 && (i - M)/S <= 35
+command 1
+        echo @@@
+        printf "%d %d %d %d\n", M, N, S, i
+        cont
+end
+
+run -100 100 3 > /dev/null
+
+quit

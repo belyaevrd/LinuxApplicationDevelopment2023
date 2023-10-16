@@ -1,0 +1,11 @@
+
+b 36 if i % 5 == 0
+command 1
+        echo @@@
+        printf "%d %d %d %d\n", M, N, S, i
+        cont
+end
+
+run 1 12 > /dev/null
+
+quit
